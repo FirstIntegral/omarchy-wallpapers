@@ -4,6 +4,17 @@
 
 Made for a 2560×1440 Omarchy/Hyprland machine; files themselves are 5120×2880 so they match the shipped Omarchy 16:9 class (`ethereal/1-cosmic.jpg`, `tokyo-night/1-quattro.jpg`).
 
+<p align="center">
+  <img src="src/01-jade-night-alley.jpg" alt="Jade night alley" width="49%" />
+  <img src="src/176-abyssal-trench-glow.jpg" alt="Abyssal trench glow" width="49%" />
+</p>
+<p align="center">
+  <img src="src/224-aurora-harbor.jpg" alt="Aurora harbor" width="49%" />
+  <img src="src/240-cloud-sea-runway.jpg" alt="Cloud sea runway" width="49%" />
+</p>
+
+Previews are the 1280×720 masters. Full wallpapers in `backgrounds/` are 5120×2880.
+
 ## How these were made
 
 1. **Generation** — [xAI Grok 4.6](https://x.ai) image generation (Imagine), 16:9 masters at 1280×720. Prompts follow the stock Omarchy wallpaper look: painterly or graphic illustration, fog/glow, dark foreground, no UI, no logos, no readable text.
@@ -13,8 +24,8 @@ These are **AI-generated images**. They are not photographs, not official Omarch
 
 ## Spec
 
-| | |
-|---|---|
+| Spec | Value |
+|------|-------|
 | Count | 300 |
 | Aspect | 16:9 |
 | Deliverable | `backgrounds/` · **5120×2880** JPEG sRGB Q95 |
