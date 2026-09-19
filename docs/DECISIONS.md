@@ -27,6 +27,11 @@ Append an entry (date + decision + why + rejected alternatives) in the same turn
 - Why: user asked where 1–9 went. Zero-pad avoids `1-` sorting between `10-` and `2-`.
 - Rejected: renaming the whole catalog to 01–N (breaks names the user already likes). Rejected unpadded `1-`–`9-`.
 
+## 2026-09-20 v5: eight worlds, 125 more, catalog 01–300
+- Decision: next 125 (`176`–`300`) split across all eight proposed worlds instead of one: abyssal 16, cislunar 16, monsoon 16, aurora towns 16, sky-harbor 16, Aegean 15, undercity 15, fog-harbor 15. Same 5120×2880 JPEG pipeline, Grok 4.6 Imagine + Real-ESRGAN `realesrgan-x4plus-anime` ×4. Still no Siege, blood, or Bauhaus/Mondrian.
+- Why: user asked for 125 to reach 300, then picked every world option and said divide between all.
+- Rejected: a single-world batch. Rejected leaving holes. Rejected more Japan-night / lockin / apocalypse clones.
+
 ## 2026-09-20 Drop 147 / 163 / 171, compact 01–175, public repo
 - Decision: delete old `147-darkroom-red` (safelight looked like blood), `163-bauhaus-blocks`, `171-mondrian-city-dusk`. Compact **all** holes (including retired 14–15 Siege slots) to sequential `01`–`175`. Rename `blood-moon-marsh` → `red-moon-marsh`. Publish `github.com/FirstIntegral/omarchy-wallpapers` (public, CC BY 4.0). Session files stay gitignored.
 - Why: user asked to remove those three, keep order, create a public GitHub repo, credit Grok 4.6 + Omarchy art language + Real-ESRGAN, then checkpoint.

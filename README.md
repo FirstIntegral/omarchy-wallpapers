@@ -1,6 +1,6 @@
 # omarchy-wallpapers
 
-175 original 16:9 desktop wallpapers in the [Omarchy](https://omarchy.org) art language: cinematic, limited-palette, uncluttered illustrated scenes. Not copies of stock Omarchy theme backgrounds.
+300 original 16:9 desktop wallpapers in the [Omarchy](https://omarchy.org) art language: cinematic, limited-palette, uncluttered illustrated scenes. Not copies of stock Omarchy theme backgrounds.
 
 Made for a 2560×1440 Omarchy/Hyprland machine; files themselves are 5120×2880 so they match the shipped Omarchy 16:9 class (`ethereal/1-cosmic.jpg`, `tokyo-night/1-quattro.jpg`).
 
@@ -15,11 +15,13 @@ These are **AI-generated images**. They are not photographs, not official Omarch
 
 | | |
 |---|---|
-| Count | 175 |
+| Count | 300 |
 | Aspect | 16:9 |
 | Deliverable | `backgrounds/` · **5120×2880** JPEG sRGB Q95 |
 | Masters | `src/` · 1280×720 JPEG (pre-upscale) |
 | Names | `NN-short-kebab.jpg` (`01`–`09` zero-padded) |
+
+`176`–`300` are eight worlds, split evenly: abyssal biolume, cislunar, monsoon tropics night, aurora towns, sky-harbor / cloud sea, Aegean limestone dusk, undercity, fog-harbor North Sea.
 
 ## Layout
 

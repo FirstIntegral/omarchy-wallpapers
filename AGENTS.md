@@ -8,7 +8,7 @@ Original Omarchy desktop wallpapers. Illustrated, cinematic, limited-palette. No
 - Deliver `backgrounds/` at **5120x2880 JPEG sRGB Q95** — matches shipped Omarchy 16:9 set (`ethereal/1-cosmic.jpg`, `tokyo-night/1-quattro.jpg`).
 - Upscale only with `~/Apps/realesrgan` (`realesrgan-x4plus-anime`, scale 4). Never Lanczos as the deliverable.
 - No text, no logos, no UI. No blood/gore. No Bauhaus/Mondrian primary-block style.
-- Numbered filenames: `NN-short-kebab.jpg` (`01`–`09` zero-padded). Catalog is sequential **01–175** with no holes.
+- Numbered filenames: `NN-short-kebab.jpg` (`01`–`09` zero-padded). Catalog is sequential **01–300** with no holes.
 
 ## Commands
 
@@ -32,7 +32,7 @@ Documentation, not authorisation: `checkpoint.sh` cross-checks this against `git
 | `scripts/upscale.sh` | Real-ESRGAN 4x → JPEG |
 | `scripts/install-omarchy.sh` | Symlink `backgrounds/` into `~/.config/omarchy/backgrounds/<current-theme>/` |
 
-## Catalog (175 files)
+## Catalog (300 files)
 
 - `01-jade-night-alley.jpg`
 - `02-lockin-terminal-glow.jpg`
@@ -209,6 +209,131 @@ Documentation, not authorisation: `checkpoint.sh` cross-checks this against `git
 - `173-stone-circle-dawn.jpg`
 - `174-last-streetlamp.jpg`
 - `175-salt-harvest-ponds.jpg`
+- `176-abyssal-trench-glow.jpg`
+- `177-hydrothermal-spire.jpg`
+- `178-biolume-plain.jpg`
+- `179-bathyscaphe-dock.jpg`
+- `180-seamount-temple.jpg`
+- `181-midnight-shoal.jpg`
+- `182-glass-sponge-garden.jpg`
+- `183-cable-landing-deep.jpg`
+- `184-pressure-hull-bay.jpg`
+- `185-drowned-colonnade.jpg`
+- `186-vent-chimney-field.jpg`
+- `187-hadal-stair.jpg`
+- `188-lanternfish-canyon.jpg`
+- `189-abyssal-observatory.jpg`
+- `190-black-smoker-ridge.jpg`
+- `191-still-water-column.jpg`
+- `192-ring-hab-noon.jpg`
+- `193-lunar-lava-tube.jpg`
+- `194-far-side-array.jpg`
+- `195-earthshine-dome.jpg`
+- `196-mass-driver-rail.jpg`
+- `197-cargo-spoke-dock.jpg`
+- `198-regolith-quarry.jpg`
+- `199-greenhouse-module.jpg`
+- `200-cislunar-tug-yard.jpg`
+- `201-mare-outpost-night.jpg`
+- `202-airlock-garden.jpg`
+- `203-anorthosite-cliff.jpg`
+- `204-l1-waystation.jpg`
+- `205-dust-fountain-dawn.jpg`
+- `206-crater-rim-habitat.jpg`
+- `207-vacuum-drydock.jpg`
+- `208-monsoon-ferry-night.jpg`
+- `209-teak-stilt-market.jpg`
+- `210-flooded-arcade.jpg`
+- `211-banana-leaf-eave.jpg`
+- `212-temple-gong-fog.jpg`
+- `213-night-river-barges.jpg`
+- `214-wet-banyan-court.jpg`
+- `215-tin-roof-rain.jpg`
+- `216-kampung-boardwalk.jpg`
+- `217-paddy-night-mirror.jpg`
+- `218-orchid-house-steam.jpg`
+- `219-mango-alley-lantern.jpg`
+- `220-harbor-sampan-rain.jpg`
+- `221-monsoon-clocktower.jpg`
+- `222-fig-root-archway.jpg`
+- `223-warm-rain-plaza.jpg`
+- `224-aurora-harbor.jpg`
+- `225-glass-atrium-snow.jpg`
+- `226-ski-jump-night.jpg`
+- `227-geothermal-street.jpg`
+- `228-fishing-drying-racks.jpg`
+- `229-polar-library-glow.jpg`
+- `230-aurora-over-rooftops.jpg`
+- `231-snow-church-steeple.jpg`
+- `232-empty-corral-aurora.jpg`
+- `233-hot-pool-steam-aurora.jpg`
+- `234-timber-wharf-violet.jpg`
+- `235-ridge-radar-aurora.jpg`
+- `236-glasshouse-aurora.jpg`
+- `237-frozen-river-town.jpg`
+- `238-mountain-hut-aurora.jpg`
+- `239-harbor-ice-break.jpg`
+- `240-cloud-sea-runway.jpg`
+- `241-airship-mooring-mast.jpg`
+- `242-wind-temple-cliff.jpg`
+- `243-cloud-break-island.jpg`
+- `244-sky-customs-hall.jpg`
+- `245-copper-hangar-dawn.jpg`
+- `246-rope-bridge-nimbus.jpg`
+- `247-ballast-lake-platform.jpg`
+- `248-cloud-lighthouse.jpg`
+- `249-pearl-dock-ring.jpg`
+- `250-thermal-updraft-tower.jpg`
+- `251-sky-market-empty.jpg`
+- `252-cliff-elevator-cloud.jpg`
+- `253-storm-shelf-port.jpg`
+- `254-sun-shaft-nave.jpg`
+- `255-kite-sail-yard.jpg`
+- `256-whitewash-caldera.jpg`
+- `257-cistern-columns.jpg`
+- `258-olive-terrace-dusk.jpg`
+- `259-night-ferry-wake.jpg`
+- `260-cyclades-windmill.jpg`
+- `261-cobalt-chapel-cliff.jpg`
+- `262-empty-agora-moon.jpg`
+- `263-limestone-quarry-sea.jpg`
+- `264-fig-courtyard-dusk.jpg`
+- `265-blue-door-lane.jpg`
+- `266-pebble-cove-dusk.jpg`
+- `267-amphora-warehouse.jpg`
+- `268-theatre-over-sea.jpg`
+- `269-pine-headland-moon.jpg`
+- `270-white-stair-to-water.jpg`
+- `271-undercity-cistern.jpg`
+- `272-mushroom-farm-halls.jpg`
+- `273-underground-tram.jpg`
+- `274-carved-plaza-lamps.jpg`
+- `275-limestone-stair-city.jpg`
+- `276-aqueduct-under-street.jpg`
+- `277-vaulted-market-empty.jpg`
+- `278-root-ceiling-street.jpg`
+- `279-glass-forge-cave.jpg`
+- `280-reservoir-walkway.jpg`
+- `281-bell-shaft-undercity.jpg`
+- `282-archive-cavern.jpg`
+- `283-bridge-over-dark-river.jpg`
+- `284-lantern-spiral-well.jpg`
+- `285-stone-harbor-below.jpg`
+- `286-ferry-terminal-fog.jpg`
+- `287-brick-warehouse-sodium.jpg`
+- `288-lock-gate-mist.jpg`
+- `289-empty-pier-sodium.jpg`
+- `290-wet-cobble-wharf.jpg`
+- `291-smokehouse-fog.jpg`
+- `292-tide-gauge-house.jpg`
+- `293-pilot-boat-slip.jpg`
+- `294-foghorn-tower.jpg`
+- `295-chain-ferry-ramp.jpg`
+- `296-custom-house-night.jpg`
+- `297-wet-rail-to-docks.jpg`
+- `298-gasometer-fog.jpg`
+- `299-sluice-house-green.jpg`
+- `300-north-sea-breakwater.jpg`
 
 ## Session files
 
